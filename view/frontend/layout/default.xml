@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Mantik_WhatsAppButton::css/whatsapp-button.css" />
+    </head>
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Mantik\WhatsAppButton\Block\WhatsAppButton\Button" name="mantik_whatsapp_button"
+                   template="Mantik_WhatsAppButton::whatsapp_button/button.phtml"
+                   before="before.body.end"
+                   ifconfig="whatsappbutton/general/status">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
