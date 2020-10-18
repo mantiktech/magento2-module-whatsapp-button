@@ -16,6 +16,12 @@
             "role": "Developer"
         }
     ],
+    "keywords": [
+        "magento",
+        "magento2",
+        "whatsapp",
+        "button"
+    ],
     "require": {},
     "autoload": {
         "psr-4": {
@@ -30,5 +36,7 @@
             "type": "composer",
             "url": "https://repo.magento.com/"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
