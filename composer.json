@@ -1,0 +1,34 @@
+{
+    "name": "mantiktech/magento2-module-whatsapp-button",
+    "description": "Magento 2 WhatsApp Button",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Tiberio Benvenuto",
+            "email": "tibe@mantik.com",
+            "homepage": "https://www.mantik.tech/",
+            "role": "Developer"
+        },
+        {
+            "name": "Jorge Venzon",
+            "email": "jorge@mantik.com",
+            "homepage": "https://www.mantik.tech/",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mantik\\WhatsAppButton\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
